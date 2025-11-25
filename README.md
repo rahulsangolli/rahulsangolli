@@ -1,16 +1,35 @@
-## Hi there 👋
+# 💫 About Me:
+🚀 Hi, I’m Rahul — a curious mind navigating the universe of **Data, AI, and everything tech**.  <br>I’m not driven by titles, labels, or “becoming something.”  <br>I’m driven by one thing only:<br><br>✨ **Becoming better. Every single day.**<br><br>For me, *better* means learning from everywhere, everyone, and everything.  <br>Whether it's a new algorithm, an unexpected idea, a strange pattern in data, or an idea that strikes at the most surprising times — I follow it with curiosity.<br><br><br>🌱 **What Defines Me**<br><br>🔍 **Data Enthusiast**  <br>I explore data not just to analyze it — but to understand the world through it.  <br>Patterns speak. Trends whisper. Outliers teach. And I love listening.<br><br>🧠 **AI Explorer**  <br>I enjoy diving into the “why” behind intelligent systems —  <br>not to imitate humans, but to build tools that extend us.<br><br>🛠️ **Builder at Heart**  <br>I like creating things that didn’t exist before.  <br>Anything that brings people together, solves a problem, or sparks unity — I’m in.<br><br><br>🔥 **What I'm Building**<br><br>I’m working on an idea that’s still taking shape — something rooted in unity, community, and genuine human connection.  <br>Not rushed. Not forced. Just learning, experimenting, and allowing it to grow naturally.  <br>The process matters more than the pace, and I’m enjoying each step of building it.<br><br><br>🧭 **My Philosophy**<br><br>I live by a simple understanding:<br><br>**Everything in life is temporary.**  <br>Success, struggle, emotions, people, moments — all of it eventually changes.<br><br>When you realize this, you stop gripping life so tightly.<br><br>You stop chasing things with desperation.  <br>You stop forcing yourself to run faster than your own breath.  <br>You stop measuring your worth by what you gain or lose.<br><br>Instead, you start moving with intention —  <br>calm, steady, and natural.<br><br>Growth isn’t something you push yourself into;  <br>it’s something you *allow* yourself to evolve into — like breathing: effortless, continuous, gentle.<br><br>So I focus on what I can control:  <br>my effort, my sincerity, my curiosity, and my work.<br><br>Not outcomes.  <br>Not applause.  <br>Not the race.<br><br>Peace isn’t found in chasing the world —  <br>it’s found in doing your work quietly, honestly, and without fear.<br><br>At the end, what matters is how you lived,  <br>how you learned,  <br>and how naturally you allowed yourself to grow.<br><br>That is enough.<br><br><br>⚙️ **What I Play With**<br><br>- Data Science  <br>- Artificial Intelligence  <br>- Machine Learning  <br>- LLMs & Generative Models  <br>- System Design & Thinking  <br>- Product Building  <br>- Anything that genuinely makes me curious to learn more  <br><br>If it’s interesting, I’m already exploring it.<br><br><br>🪄 **What You’ll Find Here**<br><br>This GitHub isn’t just a collection of repos.  <br>It’s a map of how my mind works, what I’m learning, what I’m questioning,  <br>and what I’m building next.<br><br>Some projects are polished.  <br>Some are experiments.  <br>Some are wild ideas.  <br>All are pieces of me.<br><br><br>🤝 **Let’s Connect & Build**<br><br>If you enjoy exploring ideas, questioning systems, or building things that matter,  <br>we’ll get along well.<br>
 
-<!--
-**rahulsangolli/rahulsangolli** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+## 🌐 Socials:
+[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rahulsangolli05@gmail.com) 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# 💻 Tech Stack:
+![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=flat&logo=microsoftazure&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat&logo=google-cloud&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=flat&logo=streamlit&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=flat&logo=flask&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat&logo=kubernetes&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=flat&logo=numpy&logoColor=blue) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=flat&logo=Keras&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=flat&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=flat&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=flat&logo=powerbi&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)
+
+<!-- Snake Game Repo View -->
+
+<div align="center">
+  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
+</div>
+
+
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=rahulsangolli&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=rahulsangolli&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=rahulsangolli&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=rahulsangolli&theme=dark&no-frame=false&no-bg=true&margin-w=4)
+
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=dark)
+
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=rahulsangolli&limit=5&theme=dark&combine_all_yearly_contributions=true)
+
+---
+[![](https://visitcount.itsvg.in/api?id=rahulsangolli&icon=9&color=1)](https://visitcount.itsvg.in)
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
