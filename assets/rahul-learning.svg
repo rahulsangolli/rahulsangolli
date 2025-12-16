@@ -1,82 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220">
 
   <style>
-    .text {
+    text {
       font-family: monospace;
-      font-size: 38px;
       fill: #38bdf8;
-      opacity: 0;
-      filter: drop-shadow(0 0 6px rgba(56,189,248,0.35));
+      letter-spacing: 1px;
     }
 
-    .final {
-      animation: breathe 4s ease-in-out infinite;
-    }
+    .small { font-size: 20px; }
+    .medium { font-size: 28px; }
+    .large { font-size: 34px; }
 
-    @keyframes breathe {
-      0% { opacity: 0.85; }
-      50% { opacity: 1; }
-      100% { opacity: 0.85; }
-    }
-
-    .signature {
-      font-family: 'Segoe Script', cursive;
-      font-size: 20px;
-      fill: #7dd3fc;
-      opacity: 0;
-    }
+    .dim { opacity: 0.6; }
   </style>
 
-  <rect width="100%" height="100%" fill="transparent"/>
-
-  <!-- Scene 1 -->
-  <text x="40" y="90" class="text">
-    Hey…
-
-    <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="0s" />
-    <animate attributeName="opacity" from="1" to="0" dur="1s" begin="3.5s" />
+  <!-- SCENE 1 : CHECKING SIGNAL -->
+  <text x="40" y="80" class="medium dim" opacity="0">
+    checking signal…
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0s;loop.end" fill="freeze"/>
+    <animate attributeName="opacity" from="1" to="0" dur="0.8s" begin="3s" fill="freeze"/>
   </text>
 
-  <!-- Scene 2 -->
-  <text x="40" y="90" class="text">
-    If you’re seeing this…
+  <!-- SCENE 2 : HEARTBEAT -->
+  <g opacity="0">
+    <text x="40" y="80" class="medium">heartbeat detected</text>
 
-    <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="5s" />
-    <animate attributeName="opacity" from="1" to="0" dur="1s" begin="8.5s" />
-  </text>
+    <!-- ECG LINE -->
+    <polyline
+      points="380,80 395,80 405,60 415,100 425,80 460,80"
+      fill="none"
+      stroke="#38bdf8"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-dasharray="120"
+      stroke-dashoffset="120">
+      <animate attributeName="stroke-dashoffset" from="120" to="0" dur="0.8s" begin="3.2s" repeatCount="3"/>
+    </polyline>
 
-  <!-- Scene 3 (UPDATED LINE) -->
-  <text x="40" y="90" class="text">
-    Then you’re still alive.
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="3.2s" fill="freeze"/>
+    <animate attributeName="opacity" from="1" to="0" dur="0.6s" begin="6s" fill="freeze"/>
+  </g>
 
-    <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="10s" />
-    <animate attributeName="opacity" from="1" to="0" dur="1s" begin="13.5s" />
-  </text>
+  <!-- SCENE 3 : CONSCIOUSNESS -->
+  <g opacity="0">
+    <text x="40" y="80" class="medium">consciousness online</text>
 
-  <!-- Scene 4 (Final Message) -->
-  <text x="40" y="90" class="text final">
-    And that’s already enough to begin.
+    <!-- SIMPLE BRAIN SYMBOL -->
+    <circle cx="420" cy="72" r="14" stroke="#38bdf8" stroke-width="2" fill="none"/>
+    <circle cx="440" cy="72" r="14" stroke="#38bdf8" stroke-width="2" fill="none"/>
 
-    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="15s" />
-    <animate attributeName="opacity" from="1" to="1" dur="6s" begin="17s" />
-    <animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="23s" />
-  </text>
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="6.4s" fill="freeze"/>
+    <animate attributeName="opacity" from="1" to="0" dur="0.8s" begin="9s" fill="freeze"/>
+  </g>
 
-  <!-- Signature -->
-  <text x="720" y="150" class="signature">
-    — Rahul Sangolli
+  <!-- SCENE 4 : FINAL MESSAGE -->
+  <g opacity="0">
+    <text x="40" y="90" class="large">
+      you are still alive — that’s already enough to begin
+    </text>
 
-    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="17.5s" />
-    <animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="23s" />
-  </text>
+    <text x="700" y="145" class="small dim">
+      — Rahul Sangolli
+    </text>
 
-  <!-- Infinite loop anchor -->
-  <rect width="1" height="1" fill="transparent">
-    <animate attributeName="x"
-      from="0" to="0"
-      dur="0.1s"
-      begin="25s"
-      repeatCount="indefinite"/>
-  </rect>
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="9.4s" fill="freeze"/>
+    <!-- HOLD -->
+    <animate attributeName="opacity" from="1" to="1" dur="5s" begin="10.4s" fill="freeze"/>
+    <!-- FADE OUT -->
+    <animate id="loop" attributeName="opacity" from="1" to="0" dur="1.2s" begin="15.4s" fill="freeze"/>
+  </g>
 
 </svg>
