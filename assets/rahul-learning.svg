@@ -1,106 +1,82 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220">
 
-  <defs>
-    <!-- Glow effect -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
+  <style>
+    .text {
+      font-family: monospace;
+      font-size: 38px;
+      fill: #38bdf8;
+      opacity: 0;
+      filter: drop-shadow(0 0 6px rgba(56,189,248,0.35));
+    }
+
+    .final {
+      animation: breathe 4s ease-in-out infinite;
+    }
+
+    @keyframes breathe {
+      0% { opacity: 0.85; }
+      50% { opacity: 1; }
+      100% { opacity: 0.85; }
+    }
+
+    .signature {
+      font-family: 'Segoe Script', cursive;
+      font-size: 20px;
+      fill: #7dd3fc;
+      opacity: 0;
+    }
+  </style>
 
   <rect width="100%" height="100%" fill="transparent"/>
 
-  <!-- Lightning flash background -->
-  <rect width="100%" height="100%" fill="#38bdf8" opacity="0">
-    <animate
-      attributeName="opacity"
-      values="0;0.6;0"
-      dur="0.15s"
-      begin="0s; loop.end"
-      repeatCount="3"/>
-  </rect>
+  <!-- Scene 1 -->
+  <text x="40" y="90" class="text">
+    Hey…
 
-  <!-- Lightning bolt -->
-  <path d="M500 10 L470 60 L520 80 L480 140 L530 150"
-        stroke="#e0f2fe"
-        stroke-width="3"
-        fill="none"
-        filter="url(#glow)"
-        opacity="0">
-
-    <animate
-      attributeName="opacity"
-      values="0;1;0"
-      dur="0.2s"
-      begin="0s; loop.end"
-      repeatCount="3"/>
-  </path>
-
-  <!-- MAIN TEXT -->
-  <text x="50%" y="110"
-        text-anchor="middle"
-        font-family="monospace"
-        font-size="36"
-        fill="#38bdf8"
-        filter="url(#glow)"
-        opacity="0">
-
-    You are alive — that’s already enough to begin.
-
-    <animate
-      attributeName="opacity"
-      from="0"
-      to="1"
-      dur="0.3s"
-      begin="0.1s"
-      fill="freeze"/>
-
-    <animate
-      attributeName="opacity"
-      from="1"
-      to="0"
-      dur="1s"
-      begin="5s"
-      fill="freeze"/>
-
+    <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="0s" />
+    <animate attributeName="opacity" from="1" to="0" dur="1s" begin="3.5s" />
   </text>
 
-  <!-- SIGNATURE -->
-  <text x="75%" y="160"
-        font-family="Segoe Script, cursive"
-        font-size="20"
-        fill="#7dd3fc"
-        opacity="0">
+  <!-- Scene 2 -->
+  <text x="40" y="90" class="text">
+    If you’re seeing this…
 
+    <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="5s" />
+    <animate attributeName="opacity" from="1" to="0" dur="1s" begin="8.5s" />
+  </text>
+
+  <!-- Scene 3 (UPDATED LINE) -->
+  <text x="40" y="90" class="text">
+    Then you’re still alive.
+
+    <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="10s" />
+    <animate attributeName="opacity" from="1" to="0" dur="1s" begin="13.5s" />
+  </text>
+
+  <!-- Scene 4 (Final Message) -->
+  <text x="40" y="90" class="text final">
+    And that’s already enough to begin.
+
+    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="15s" />
+    <animate attributeName="opacity" from="1" to="1" dur="6s" begin="17s" />
+    <animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="23s" />
+  </text>
+
+  <!-- Signature -->
+  <text x="720" y="150" class="signature">
     — Rahul Sangolli
 
-    <animate
-      attributeName="opacity"
-      from="0"
-      to="1"
-      dur="1s"
-      begin="1s"
-      fill="freeze"/>
-
-    <animate
-      attributeName="opacity"
-      from="1"
-      to="0"
-      dur="1s"
-      begin="5s"
-      fill="freeze"/>
-
+    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="17.5s" />
+    <animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="23s" />
   </text>
 
-  <!-- LOOP CONTROLLER -->
-  <animate id="loop"
-    attributeName="opacity"
-    from="1"
-    to="1"
-    dur="8s"
-    repeatCount="indefinite"/>
+  <!-- Infinite loop anchor -->
+  <rect width="1" height="1" fill="transparent">
+    <animate attributeName="x"
+      from="0" to="0"
+      dur="0.1s"
+      begin="25s"
+      repeatCount="indefinite"/>
+  </rect>
 
 </svg>
